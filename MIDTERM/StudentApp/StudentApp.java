@@ -170,7 +170,7 @@ class StudentApp {
                System.out.println("[ 5. Bachelor of Science in Civil Engineering (BSCE) ]");
                System.out.print("[] Student Course: ");
                courseName = scan.next();
-               System.out.print("\n[] Student Course Code: ");
+               System.out.print("[] Student Course Code: ");
                courseCode = scan.next();
                System.out.print("[] Student Department: ");
                department = scan.next();
@@ -246,7 +246,7 @@ class StudentApp {
                         System.out.printf("\nSuffix: %s", student.getSuffix());
                         System.out.printf("\nPhone No.: %s", student.getPhoneNo());
                         System.out.printf("\nEmail: %s", student.getEmail());
-                        System.out.println(" STUDENT COURSE ");
+                        System.out.println("\n[] STUDENT COURSE ]");
                         System.out.printf("\nCourse Name: %s", studentCourse.getCourseName());
                         System.out.printf("\nCourse Code: %s", studentCourse.getCourseCode());
                         System.out.printf("\nDepartment: %s", studentCourse.getDepartment());
